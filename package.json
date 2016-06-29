@@ -1,0 +1,27 @@
+{
+  "name": "is-null-or-empty",
+  "version": "0.1.0",
+  "description": "A simple null, undefined or empty string checker",
+  "main": "src/index.js",
+  "scripts": {
+    "test:lint": "node ./node_modules/eslint/bin/eslint index.js",
+    "test:tape": "node ./node_modules/tape/bin/tape 'src/**/*-spec.js'",
+    "test:coverage": "node ./node_modules/covert/bin/cmd src/__tests__/*-spec.js -c",
+    "test": "npm run test:lint && npm run test:tape && npm run test:coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barryels/is-null-or-empty.git"
+  },
+  "author": "Barry Els <barryels@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barryels/is-null-or-empty/issues"
+  },
+  "homepage": "https://github.com/barryels/is-null-or-empty#readme",
+  "devDependencies": {
+    "covert": "^1.1.0",
+    "eslint": "^2.13.1",
+    "tape": "^4.6.0"
+  }
+}
