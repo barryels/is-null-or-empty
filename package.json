@@ -1,5 +1,5 @@
 {
-  "name": "is-null-or-empty",
+  "name": "@barryels/is-null-or-empty",
   "version": "0.1.0",
   "description": "A simple null, undefined or empty string checker",
   "main": "src/index.js",
